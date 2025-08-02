@@ -1,0 +1,22 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pw:test": "npx playwright test",
+    "pw:chrome": "npx playwright test --project=chromium",
+    "pw:rp": "yarn playwright show-report",
+    "pw:crm": "npx playwright test CRMtestjyj.spec.ts --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
