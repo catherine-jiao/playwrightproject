@@ -1,5 +1,5 @@
 
-## This project is an automated E to E test written in Playwright covering more than 100 test cases。
+## This project is an automated E2E test written in Playwright covering more than 100 test cases
 
 ![CI/CD for Jenkins with playwright automation testing ](image/jenkinsshot.jpg)
 
